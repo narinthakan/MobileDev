@@ -23,13 +23,11 @@ Dart SDK: เวอร์ชัน 2.17.0 ขึ้นไป
 
 รันคำสั่ง 
 
-git clone <URL ของ repository>
+git clone https://github.com/narinthakan/MobileDev.git
+
+cd MobileDev
 
 2. ติดตั้ง Dependencies
-
-cd FlutterProjects
-
-cd myapp
 
 flutter pub get
 
