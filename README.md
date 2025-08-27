@@ -1,36 +1,41 @@
-<<<<<<< HEAD
-# myapp
 
-A new Flutter project.
+##Pokemon Team Builder
+โปรเจกต์นี้คือแอปพลิเคชัน Flutter สำหรับสร้างทีมโปเกมอน โดยผู้ใช้สามารถเลือกโปเกมอนที่ชื่นชอบ จัดทีม และบันทึกไว้ใช้งานได้
 
-## Getting Started
+##คุณสมบัติหลัก
+การสร้างทีม: เลือกโปเกมอนได้สูงสุด 3 ตัวเพื่อสร้างทีม
 
-This project is a starting point for a Flutter application.
+การจัดการทีม: บันทึกทีมที่สร้างไว้ สามารถแก้ไขชื่อหรือลบทิ้งได้
 
-A few resources to get you started if this is your first Flutter project:
+การค้นหาและกรอง: ค้นหาโปเกมอนตามชื่อหรือกรองตามประเภท (type)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+แอนิเมชัน: การ์ดโปเกมอนจะมีแอนิเมชันตอบสนองเมื่อถูกเลือก
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# MobileDev
->>>>>>> b0f1d9273605b96514284788431bad6e9e9b1514
-# MobileDev
+##ข้อกำหนดของระบบ
+Flutter SDK: เวอร์ชัน 3.0.0 ขึ้นไป
 
-A new Flutter project (myapp).
+Dart SDK: เวอร์ชัน 2.17.0 ขึ้นไป
 
-## Getting Started
+แพ็กเกจที่ใช้: get_storage, http, และ flutter_launcher_icons
 
-This project is a starting point for a Flutter application.
+##การติดตั้งและการรัน
 
-A few resources to get you started if this is your first Flutter project:
+1. โคลนโปรเจกต์
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+รันคำสั่ง 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone <URL ของ repository>
+
+2. ติดตั้ง Dependencies
+
+cd FlutterProjects
+
+cd myapp
+
+flutter pub get
+
+3. รันแอปพลิเคชัน
+
+flutter run
+
+
